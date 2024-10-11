@@ -1,12 +1,6 @@
 {
   "dependencies": [
     {
-      "name": "discord_rpc",
-      "type": "git",
-      "ref": "master",
-      "url": "https://github.com/Aidan63/linc_discord-rpc"
-    },
-    {
       "name": "extension-androidtools",
       "type": "git",
       "ref": "main",
