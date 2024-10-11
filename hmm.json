@@ -4,13 +4,13 @@
       "name": "discord_rpc",
       "type": "git",
       "ref": "master",
-      "url": "https://github.com/PsychPorting/linc_discord-rpc-0.6.3"
+      "url": "https://github.com/Aidan63/linc_discord-rpc"
     },
     {
       "name": "extension-androidtools",
       "type": "git",
       "ref": "main",
-      "url": "https://github.com/PsychPorting/extension-androidtools-0.6.3"
+      "url": "https://github.com/MAJigsaw77/extension-androidtools"
     },
     {
       "name": "flixel",
@@ -34,9 +34,8 @@
     },
     {
       "name": "hxCodec",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/PsychPorting/hxCodec-0.6.3.git"
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "hxcpp",
@@ -45,15 +44,13 @@
     },
     {
       "name": "lime",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/PsychPorting/lime-0.6.3.git"
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "linc_luajit",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/PsychPorting/linc_luajit-0.6.3.git"
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "openfl",
