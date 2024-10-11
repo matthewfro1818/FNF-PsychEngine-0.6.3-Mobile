@@ -16,6 +16,7 @@ jobs:
         run: |
           haxelib git hmm https://github.com/andywhite37/hmm --quiet --skip-dependencies
           haxelib run hmm install --quiet
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 
       - name: Compile
         run: haxelib run lime build windows
@@ -70,6 +71,7 @@ jobs:
         run: |
           haxelib git hmm https://github.com/andywhite37/hmm --quiet --skip-dependencies
           haxelib run hmm install --quiet
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 
       - name: Compile
         run: haxelib run lime build mac
@@ -107,6 +109,7 @@ jobs:
         run: |
           haxelib git hmm https://github.com/andywhite37/hmm --quiet --skip-dependencies
           haxelib run hmm install --quiet
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 
       - name: Configure Android
         run: |
@@ -139,6 +142,7 @@ jobs:
         run: |
           haxelib git hmm https://github.com/andywhite37/hmm --quiet --skip-dependencies
           haxelib run hmm install --quiet
+          haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 
       - name: Compile
         run: haxelib run lime build ios -nоsign -arm64
