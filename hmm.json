@@ -2,15 +2,13 @@
   "dependencies": [
     {
       "name": "discord_rpc",
-      "type": "git",
-      "ref": "master",
-      "url": "https://github.com/Aidan63/linc_discord-rpc"
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "extension-androidtools",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/MAJigsaw77/extension-androidtools"
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "flixel",
