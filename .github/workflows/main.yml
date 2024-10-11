@@ -14,7 +14,7 @@ jobs:
 
       - name: Install Libraries
         run: |
-          haxelib install hmm --quiet
+          haxelib git hmm https://github.com/andywhite37/hmm --quiet
           haxelib run hmm install --quiet
 
       - name: Compile
@@ -68,7 +68,7 @@ jobs:
 
       - name: Install Libraries
         run: |
-          haxelib install hmm --quiet
+          haxelib git hmm https://github.com/andywhite37/hmm --quiet
           haxelib run hmm install --quiet
 
       - name: Compile
