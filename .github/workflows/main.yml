@@ -40,7 +40,7 @@ jobs:
       - name: Install Libraries
         run: |
           DEBIAN_FRONTEND=noninteractive sudo apt-get -qq install -o Dpkg::Progress-Fancy="0" -o APT::Color="0" -o Dpkg::Use-Pty="0" libvlc-dev libvlccore-dev < /dev/null > /dev/null
-          haxelib install hmm --quiet
+          haxelib git hmm https://github.com/andywhite37/hmm --quiet
           haxelib run hmm install --quiet
 
       - name: Compile
@@ -105,7 +105,7 @@ jobs:
 
       - name: Install Libraries
         run: |
-          haxelib install hmm --quiet
+          haxelib git hmm https://github.com/andywhite37/hmm --quiet
           haxelib run hmm install --quiet
 
       - name: Configure Android
@@ -137,7 +137,7 @@ jobs:
 
       - name: Install Libraries
         run: |
-          haxelib install hmm --quiet
+          haxelib git hmm https://github.com/andywhite37/hmm --quiet
           haxelib run hmm install --quiet
 
       - name: Compile
